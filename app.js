@@ -8,24 +8,24 @@ function run() {
     output.contentWindow.eval(jsCode);
 }
 
-const boilerplateHTML = `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Generated Boilerplate</title>
-    </head>
-    <body>
-        <h1>Your Boilerplate Code</h1>
-        <p>This code was auto-generated.</p>
-    </body>
-    </html>
-`;
+// const boilerplateHTML = `
+//     <!DOCTYPE html>
+//     <html lang="en">
+//     <head>
+//         <meta charset="UTF-8">
+//         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//         <title>Generated Boilerplate</title>
+//     </head>
+//     <body>
+//         <h1>Your Boilerplate Code</h1>
+//         <p>This code was auto-generated.</p>
+//     </body>
+//     </html>
+// `;
 
-const boilerplateCSS = `
-    h1 {color: green};
-`;
+// const boilerplateCSS = `
+//     h1 {color: green};
+// `;
 
-document.getElementById('html-code').value = boilerplateHTML;
-document.getElementById('css-code').value = boilerplateCSS;
+// document.getElementById('html-code').value = boilerplateHTML;
+// document.getElementById('css-code').value = boilerplateCSS;
